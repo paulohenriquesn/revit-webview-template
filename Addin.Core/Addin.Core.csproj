@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Configurations>Release</Configurations>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Addin</RootNamespace>
+    <AssemblyName>Addin</AssemblyName>
+    <Nullable>enable</Nullable>
+    <UseWPF>True</UseWPF>
+    <ProjectGuid>{CA7EE2EB-B2EA-4733-BEC6-1B1B07676FDC}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="../Dlls/2025/RevitAPI.dll" />
+    <Reference Include="../Dlls/2025/RevitAPIUI.dll" />
+    <Reference Include="../Dlls/2025/CefSharp.Wpf.dll" />
+    <Reference Include="../Dlls/2025/CefSharp.dll" />
+  </ItemGroup>
+
+</Project>
